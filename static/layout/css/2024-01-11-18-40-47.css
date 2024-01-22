@@ -1,0 +1,79 @@
+/********************************************** listServices ******************************************/
+.listServices{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 20px);
+  margin-left: -10px;
+}
+
+.listServices .service{
+  order: 2;
+  width: calc(100%/3 - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.listServices .service:nth-child(-n+4){
+  order: 0;
+}
+
+.listServices .banner{
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100%/3 - 20px);
+  min-height: 250px;
+  box-sizing: border-box;
+  margin: 10px;
+  border: 1px solid red;
+  background-color: red;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.listServices .image{
+  position: relative;
+  width: 100%;
+}
+
+.listServices .image img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.listServices .title{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 18px;
+}
+
+.listServices .description{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #fcfcfc;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/********************************************** listServices ******************************************/
+
+@media only screen and (max-width: 767px){
+  .listServices .service, .listServices .banner{
+    width: calc(100%/2 - 20px);
+  }
+}
+
+@media only screen and (max-width: 539px){
+  .listServices .service, .listServices .banner{
+    width: calc(100% - 20px);
+  }
+}

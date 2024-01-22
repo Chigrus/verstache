@@ -1,0 +1,38 @@
+{
+  "name": "sveltekit",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@fontsource/fira-mono": "^4.5.10",
+    "@neoconfetti/svelte": "^1.0.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-node": "^1.2.4",
+    "@sveltejs/kit": "^1.22.6",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node-fetch": "^2.6.2",
+    "@types/nprogress": "^0.2.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "sass": "^1.53.0",
+    "svelte": "^3.59.2",
+    "svelte-body": "^1.4.0",
+    "svelte-preprocess": "^4.10.7",
+    "typescript": "^4.9.5",
+    "vite": "^4.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cl-editor": "^2.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "svelte-easy-crop": "^2.0.1",
+    "svelte-highlight": "^7.4.8",
+    "svelte-kit-env": "^1.0.0"
+  }
+}

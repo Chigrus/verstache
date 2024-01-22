@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Sitemap: https://verstache.ru/sitemap.xml
+host: verstache.ru

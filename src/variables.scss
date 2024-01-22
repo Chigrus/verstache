@@ -1,0 +1,27 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+:root {
+	/********************* Fonts *****************************/
+    --font-body: Rubik, Arial, 'Helvetica Neue', sans-serif;			/*    var(--font-body);    */
+    --font-h1: Playfair, Arial, 'Helvetica Neue', sans-serif;			/*    var(--font-h1);    */
+    --font-title: Oswald, Arial, 'Helvetica Neue', sans-serif;			/*    var(--font-title);    */
+    --font-subtitle: OpenSans, Arial, 'Helvetica Neue', sans-serif;		/*    var(--font-subtitle);    */
+    --font-text: Georgia, Arial, 'Helvetica Neue', sans-serif;			/*    var(--font-text);    */
+
+	/********************* Text *****************************/
+	--text-primary: #000;     /*    var(--text-primary);    */
+	--text-secondary: #ffff;   /*    var(--text-secondary);    */
+	--text-third: rgba(255,255,255,0.6);       /*    var(--text-third);    */
+	--text-4: #FFFFFF;           /*    var(--text-4);    */
+
+	/********************* Background *****************************/
+	--bg-primary: #fff;       /*    var(--bg-primary);    */
+	--bg-secondary: #000;     /*    var(--bg-secondary);    */
+	--bg-third: #6aaf08;      /*    var(--bg-third);    */
+	--bg-4: #f4f4f4;
+	--bg-5: #d4d4d4;
+	--bg-hover-1: rgba(0,0,0,0.6);
+
+	/********************* Outline *****************************/
+	--outline-primary: #000;
+	--outline-secondary: #e5e5e5;
+}
