@@ -11,19 +11,12 @@
 
 	let og_data = data.og_data[0];
 	let user = data.user;
-	let notices = data.notices;
-	let news = data.news;
-	let administration = data.administration;
 
 	let isOpenGraphEdit = false;
 
 	import AdminButtons from '../components/AdminButtons.svelte';
 	import BtnAdminEdit from '../components/BtnAdminEdit.svelte';
 	import OpenGraphEditor from '../components/OpenGraphEditor.svelte';
-	import HeaderContent from '../components/HeaderContent.svelte';
-	import HomeNotices from '../components/HomeNotices.svelte';
-	import HomeNews from '../components/HomeNews.svelte';
-	import Administration from '../components/Administration.svelte';
 
 	function openGraphEdit(){
 		isOpenGraphEdit = true;
