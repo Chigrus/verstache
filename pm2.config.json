@@ -3,5 +3,8 @@
    "script": "./build/index.js",
    "instances": 2,
    "exec_mode": "cluster",
-   "max_memory_restart": "300M"
+   "max_memory_restart": "300M",
+   "env": {
+      "PORT": 3001
+   }
 }]}
