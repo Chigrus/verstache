@@ -1,5 +1,5 @@
 {"apps":[{
-   "name": "lotus",
+   "name": "verstache",
    "script": "./build/index.js",
    "instances": 2,
    "exec_mode": "cluster",
