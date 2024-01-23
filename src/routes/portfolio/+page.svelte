@@ -53,7 +53,8 @@
 					<img src="/portfolio/engwell.jpg" alt=""  />
 				</div>
 				<div class="title">www.engwell.ru</div>
-				<div class="text">Сайт репетитора по английскому языку. Лендинг с возможностью редактирования, формой отправки сообщений владельцу и формой отправки отзыва о репетиторе.</div>
+				<div class="text">Сайт репетитора по английскому языку. Лендинг с возможностью редактирования, формой отправки 
+					сообщений владельцу и формой отправки отзыва о репетиторе.</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span> Дизайн & Верстка & JS</div>
@@ -71,7 +72,8 @@
 					<img src="/portfolio/nevkat.jpg" alt=""  />
 				</div>
 				<div class="title">www.nevkat.ru</div>
-				<div class="text">Лендинг компании занимающейся приемом автомобильных катализаторов. Информеры биржи металлов LME и калькулятор для расчета приемки, доступный для приемщика.</div>
+				<div class="text">Лендинг компании занимающейся приемом автомобильных катализаторов. 
+					Информеры биржи металлов LME и калькулятор для расчета приемки, доступный для приемщика.</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span> Верстка & JS</div>
@@ -89,7 +91,8 @@
 					<img src="/portfolio/barbernsk.jpg" alt=""  />
 				</div>
 				<div class="title">www.barbernsk.ru</div>
-				<div class="text">Лендинг для барбершопа в городе Невинномысске. Информация о ценах, услагух и мастерах барбершопа с возможностью онлайн записи на услуги.</div>
+				<div class="text">Лендинг для барбершопа в городе Невинномысске. Информация о ценах, услагух и мастерах барбершопа с 
+					возможностью онлайн записи на услуги.</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span> Верстка & JS</div>
@@ -107,7 +110,8 @@
 					<img src="/portfolio/shopusk23.jpg" alt=""  />
 				</div>
 				<div class="title">www.shop.usk23.ru</div>
-				<div class="text">Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка.</div>
+				<div class="text">Интернет-магазин строительных материалов компании ооо "югстройкровля". Каталог товаров, информация о 
+					компании и прочий функционал магазина.</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span>Верстка & JS</div>
@@ -125,7 +129,8 @@
 					<img src="/portfolio/splavld.jpg" alt=""  />
 				</div>
 				<div class="title">www.splav-ld.ru</div>
-				<div class="text">Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка.</div>
+				<div class="text">Сайт компании, занимающейся первичной переработкой драгоценных металлов на Юге России. 
+					Удобный калькулятор для пользователей, сдающих радиолом.</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span> Верстка & JS</div>
@@ -143,7 +148,8 @@
 					<img src="/portfolio/usk23.jpg" alt=""  />
 				</div>
 				<div class="title">www.usk23.ru</div>
-				<div class="text">Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка. Сайт преподавателя английского языка.</div>
+				<div class="text">Сайт компании производителя кровельных и гидроизоляционных материалов в ЮФО. Каталог продукции и другая 
+					информация о компании ООО «Югстройкровля».</div>
 				<div class="description">
 					<div class="description_line">
 						<div class="text_desc"><span>Услуги:</span> Верстка & JS</div>
