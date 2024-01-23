@@ -50,6 +50,43 @@
 		<div class="portfolio">
 			<div class="block">
 				<div class="image">
+					<img src="/portfolio/iparta.jpg" alt=""  />
+				</div>
+				<div class="title">www.iparta.ru</div>
+				<div class="text">Интернет-магазин товаров для оснащения учебных заведений “Ай-Парта”. Каталог товаров, информация о 
+					компании и прочий функционал магазина.</div>
+				<div class="description">
+					<div class="description_line">
+						<div class="text_desc"><span>Услуги:</span>Дизайн & Верстка & JS</div>
+					</div>
+					<div class="description_line">
+						<div class="text_desc"><span>Платформа:</span> 1С-Битрикс</div>
+					</div>
+					<div class="link_line">
+						<a href="https://iparta.ru" class="link" target="_blank">Перейти на сайт</a>
+					</div>
+				</div>
+			</div>
+			<div class="block">
+				<div class="image">
+					<img src="/portfolio/verstache.jpg" alt=""  />
+				</div>
+				<div class="title">www.verstache.ru</div>
+				<div class="text">Личный сайт разработчика. Портфолио, статьи посвященные верстке и программированию, примеры кода и разбор нестандартных задач.</div>
+				<div class="description">
+					<div class="description_line">
+						<div class="text_desc"><span>Услуги:</span> Дизайн & Верстка & JS</div>
+					</div>
+					<div class="description_line">
+						<div class="text_desc"><span>Платформа:</span> SvelteKit / Svelte</div>
+					</div>
+					<div class="link_line">
+						<a href="https://verstache.ru" class="link" target="_blank">Перейти на сайт</a>
+					</div>
+				</div>
+			</div>
+			<div class="block">
+				<div class="image">
 					<img src="/portfolio/engwell.jpg" alt=""  />
 				</div>
 				<div class="title">www.engwell.ru</div>
