@@ -8,46 +8,46 @@
         <div class="why">
             <div class="block">
                 <div class="icon speed"></div>
-                <div class="title">Скорость<br> Разработки</div>
+                <div class="title">Скорость<br> разработки</div>
                 <div class="text">
-                    Типичный компонент на svelte в 3 раза меньше чем полный аналог на vue и в 5 раз чем на react.
+                    Типичный компонент на Svelte в 3 раза меньше, чем полный аналог на Vue, и в 5 раз меньше чем на React.
                 </div>
             </div>
             <div class="block">
                 <div class="icon dom"></div>
-                <div class="title">Компиляция в обычные <br> Dom операции</div>
+                <div class="title">Компиляция в обычные <br> DOM-операции</div>
                 <div class="text">
-                    У svelte нет никаких virtual DOM, после сборки компонент работает с нативным dom браузера!
+                    У Svelte нет никаких Virtual DOM: после сборки компонент работает с нативным DOM браузера!
                 </div>
             </div>
             <div class="block">
                 <div class="icon runtime"></div>
-                <div class="title">Минималистичный <br> Рантайм</div>
+                <div class="title">Минималистичный <br> рантайм</div>
                 <div class="text">
-                    После компиляции svelte в бандле от него практически ничего не остается, только непосредственно логика приложения и функционал, 
+                    После компиляции Svelte в бандле от него практически ничего не остается – только непосредственно логика приложения и функционал, 
                     который используется напрямую.
                 </div>
             </div>
             <div class="block">
                 <div class="icon performance"></div>
-                <div class="title">Хорошая <br> Производительность</div>
+                <div class="title">Хорошая <br> производительность</div>
                 <div class="text">
-                    React и vue тратят ресурсы пользователя на постоянный пересчет virtual DOM, jquery работает с настоящим dom но меняет сразу много 
-                    dom узлов a svelte делает точечные изменеения в dom.
+                    React и Vue тратят ресурсы пользователя на постоянный пересчет virtual DOM. Jquery работает с настоящим DOM, но меняет сразу много 
+                    DOM узлов. А Svelte делает точечные изменеения в DOM.
                 </div>
             </div>
             <div class="block">
                 <div class="icon typescript"></div>
-                <div class="title">Хорошая поддержка <br> Typescript</div>
+                <div class="title">Хорошая поддержка <br> TypeScript</div>
                 <div class="text">
-                    Svelte позволяет делать проверку типов не только в коде но и в шаблоне, что позволяет отлавливать больше ошибок на этапе разработки.
+                    Svelte позволяет делать проверку типов не только в коде, но и в шаблоне, что позволяет отлавливать больше ошибок на этапе разработки.
                 </div>
             </div>
             <div class="block">
                 <div class="icon tools"></div>
-                <div class="title">Инструменты из <br> Коробки</div>
+                <div class="title">Инструменты из <br> коробки</div>
                 <div class="text">
-                    В svelte из коробки есть инструменты управления состоянием (store), анимации, экшены, асинхронная отрисовка (await в шаблоне).
+                    В Svelte из коробки есть инструменты управления состоянием (store), анимации, экшены, асинхронная отрисовка (await в шаблоне).
                 </div>
             </div>
         </div>
