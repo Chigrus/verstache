@@ -91,7 +91,7 @@
     <div class="content">
         <div class="main" on:mousedown={() => clickNode(index)}>
             {#if node.isEdit}
-                {#if node.type === 'code_html' || node.type === 'code_css'}
+                {#if node.type === 'code_html' || node.type === 'code_css' || node.type === 'noindex'}
                     <div class="code_container">
                         <textarea class="code_past" bind:value={node.content}></textarea>
                     </div>

@@ -1,0 +1,129 @@
+/********************************************** tooltip ******************************************/
+.tooltip_wrap{
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 75px 0;
+  user-select: none;
+}
+
+.tooltipContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 0;
+}
+
+.tooltipContainer.middle{
+  justify-content: space-between;
+}
+
+.ttContent{
+  position: relative;
+}
+
+.tooltip{
+  position: absolute;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.ttContent:hover .tooltip{
+  display: flex;
+}
+
+.tooltip.right{
+  left: calc(100% + 10px);
+  top: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tooltip.left{
+  left: -10px;
+  top: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tooltip.top{
+  bottom: calc(100% + 10px);
+  left: 50%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tooltip.bottom{
+  bottom: -10px;
+  left: 50%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.ttInner{
+  position: relative;
+  min-width: max-content;
+  background-color: rgba(0,0,0,0.75);
+  box-sizing: border-box;
+  padding: 10px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.ttInner::before{
+  content: '';
+  position: absolute;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.tooltip.right .ttInner::before{
+  top: 50%;
+  left: -14px;
+  margin-top: -8px; 
+  border-right-width: 6px solid rgba(0,0,0,0.75);
+}
+
+.tooltip.left .ttInner::before{
+  top: 50%;
+  right: -14px;
+  margin-top: -8px;
+  border-left: 6px solid rgba(0,0,0,0.75);
+}
+
+.tooltip.top .ttInner::before{
+  bottom: -14px;
+  left: 50%;
+  margin-left: -8px; 
+  border-top: 6px solid rgba(0,0,0,0.75);
+}
+
+.tooltip.bottom .ttInner::before{
+  top: -14px;
+  left: 50%;
+  margin-left: -8px; 
+  border-bottom: 6px solid rgba(0,0,0,0.75);
+}
+
+.ttInner span{
+  display: inline-block;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.tooltip.bottom .ttInner span{
+  max-width: 120px;
+}
+
+.tt_block{
+  padding: 14px 20px;
+  background-color: rgba(0,0,0,0.1);
+  line-height: 1em;
+  font-size: 14px;
+  font-weight: 600;
+}
+/********************************************** tooltip ******************************************/
