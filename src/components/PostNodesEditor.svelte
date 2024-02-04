@@ -10,7 +10,7 @@
     import QuoteEditor from '../components/QuoteEditor.svelte';
 
     import Highlight from "svelte-highlight";
-	import vbscriptHtml from "svelte-highlight/languages/vbscript-html";
+	import xml from "svelte-highlight/languages/xml";
     import css from "svelte-highlight/languages/css";
 
     export let nodes: Nodes;
@@ -126,7 +126,7 @@
                     <noindex>{@html node.content}</noindex>
                 {/if}
                 {#if node.type === 'code_html'}
-                    <Highlight language={vbscriptHtml} code={node.content} />
+                    <Highlight language={xml} code={node.content} />
                  {/if}
                 {#if node.type === 'code_css'}
                     <Highlight language={css} code={node.content} />
