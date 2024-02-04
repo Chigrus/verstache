@@ -104,7 +104,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="block">
+			<!-- <div class="block">
 				<div class="image">
 					<img src="/portfolio/nevkat.jpg" alt=""  />
 				</div>
@@ -122,7 +122,7 @@
 						<a href="https://nevkat.ru" class="link" target="_blank">Перейти на сайт</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="block">
 				<div class="image">
 					<img src="/portfolio/barbernsk.jpg" alt=""  />
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="block">
+			<!-- <div class="block">
 				<div class="image">
 					<img src="/portfolio/splavld.jpg" alt=""  />
 				</div>
@@ -179,7 +179,7 @@
 						<a href="https://splav-ld.ru" class="link" target="_blank">Перейти на сайт</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 			<div class="block">
 				<div class="image">
 					<img src="/portfolio/usk23.jpg" alt=""  />
