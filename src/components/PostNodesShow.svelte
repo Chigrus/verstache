@@ -1,7 +1,7 @@
 <script lang='ts'>
     import type {Nodes} from '../routes/types';
     import Highlight from "svelte-highlight";
-	import vbscriptHtml from "svelte-highlight/languages/vbscript-html";
+	import xml from "svelte-highlight/languages/xml";
 	import css from "svelte-highlight/languages/css";
     
     import QuoteOne from '../components/QuoteOne.svelte';
@@ -33,7 +33,7 @@
         <ol>{@html node.content}</ol>
     {/if}
     {#if node.type === 'code_html'}
-        <Highlight language={vbscriptHtml} code={node.content} />
+        <Highlight language={xml} code={node.content} />
     {/if}
     {#if node.type === 'code_css'}
         <Highlight language={css} code={node.content} />
