@@ -46,8 +46,8 @@
 
 	import type { ComponentType } from 'svelte';
 	import Editor from 'cl-editor';
+	// @ts-ignore
 	const cedit: ComponentType = Editor;
-
 
 	let isOpenGraphEdit = false;
 	let isIconPostEdit = false;
