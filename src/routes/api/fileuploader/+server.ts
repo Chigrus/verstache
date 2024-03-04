@@ -10,9 +10,9 @@ function getUrl(type:string, file:string, compare_type:string, resolution:string
     }
     
     const fileName = new Date().toISOString().match(DATE_RE)!.slice(1).join('-');
-    const url = `/layout/${resolution}/${fileName}.${resolution}`;
+    const url = `/layoutuploads/${resolution}/${fileName}.${resolution}`;
 
-    writeFileSync(`static/layout/${resolution}/${fileName}.${resolution}`, file, 'base64');
+    writeFileSync(`static/layoutuploads/${resolution}/${fileName}.${resolution}`, file, 'base64');
 
     return json({ url });
 }

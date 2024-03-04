@@ -72,7 +72,8 @@
 										text: 'Описание нового поста', 
 										icon: '', 
 										post: [{"id":1,"type":"h1","content":"Заголовок нового поста"}], 
-										slug: 'new_post', 
+										slug: 'new_post',
+										includefiles: [],
 										og_id: og_id
 									}),
 			});

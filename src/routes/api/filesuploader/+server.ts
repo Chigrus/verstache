@@ -11,9 +11,9 @@ function getUrl(type:string, file:string, compare_type:string, resolution:string
     }
     
     const fileName = new Date().toISOString().match(DATE_RE)!.slice(1).join('-') + '-' + random;
-    const url = `/layout/images/${fileName}.${resolution}`;
+    const url = `/layoutuploads/images/${fileName}.${resolution}`;
 
-    writeFileSync(`static/layout/images/${fileName}.${resolution}`, file, 'base64');
+    writeFileSync(`static/layoutuploads/images/${fileName}.${resolution}`, file, 'base64');
 
     return json({ url });
 }
